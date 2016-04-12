@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i, n, x, total;
+    
+    cout<<"jumlah angka = "<<endl;
+    cin>>n;
+    
+    total = 0;
+    
+    for (i=1 ; i<=n ; i++) 
+    {
+        cout<<"input angka"<<i<<"=" ;
+        cin>>x; 
+        
+        total=total+x;
+    }
+    
+    cout<<"total= "<< total;
+    
+    return 0;
+}
